@@ -13,7 +13,8 @@ Bundle-ClassPath: .,
  lib/splar.jar,
  lib/SPLCAT.jar,
  lib/commons-math-2.2.jar,
- lib/uvl-parser.jar
+ lib/uvl-parser.jar,
+ lib/gson-2.10.1.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Activator: de.ovgu.featureide.fm.core.FMCorePlugin
 Bundle-Vendor: University of Magdeburg
@@ -162,6 +163,7 @@ Export-Package: de.vill.model,
  splar.plugins.reasoners.tests.bdd.javabdd,
  splar.plugins.reasoners.tests.sat.sat4j,
  splar.plugins.tests,
- splar.samples
+ splar.samples,
+ com.google.gson
 Bundle-ActivationPolicy: lazy
 Automatic-Module-Name: de.ovgu.featureide.fm.core
